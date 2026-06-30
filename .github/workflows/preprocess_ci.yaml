@@ -27,7 +27,7 @@ jobs:
         python automate_AsmaulHusna.py
 
     - name: Upload Preprocessed Data Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: preprocessed-dataset
         path: preprocessing/getcontact_preprocessing.csv
